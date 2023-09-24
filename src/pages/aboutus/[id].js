@@ -5,10 +5,13 @@ export default function f() {
   const id=r.query.id;
   let content;
   if (id === '1') {
-    content = 'Yash Senior Developer';
+    content = 'Yash = Senior Developer';
   } else if (id === '2') {
-    content = 'Vaibhav Backend Developer';
-  } else {
+    content = 'Vaibhav = Backend Developer';
+  } 
+  else if (id === '3') {
+    content = 'Suresh = Frontend Developer';
+  }else {
     content = 'Developer doesn\'t exist';
   }
 
